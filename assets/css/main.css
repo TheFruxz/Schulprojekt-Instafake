@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+nav.navigation {
+  height: 4rem;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 15px -5px rgba(128, 128, 128, 0.62);
+}
+nav.navigation .label {
+  float: left;
+  margin-left: 5vw;
+  font-size: 1.3rem;
+  line-height: 100%;
+}
+nav.navigation .icon {
+  float: right;
+  margin-right: 5vw;
+  font-size: 1.7rem;
+  border-radius: 100%;
+  padding: 1rem;
+  transition: all 0.2s ease-in-out;
+  line-height: 100%;
+}
+nav.navigation .icon:hover {
+  background-color: lightgray;
+}
+
+.pacifico {
+  font-family: "Pacifico", cursive;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.body {
+  width: 100vw;
+  min-height: 80vh;
+  margin-top: 6rem;
+}
+
+.profile {
+  background-color: white;
+  padding: 2rem;
+  margin: 2rem;
+  height: 12rem;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 0 0 15px -5px gray;
+}
+.profile .circle {
+  width: 10rem;
+  height: 10rem;
+  overflow: hidden;
+  border-radius: 100%;
+  box-shadow: 0 0 15px -5px black;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+.profile .description .name {
+  font-size: 2rem;
+}
+.profile .description .text {
+  width: 80%;
+}
+
+.gallery {
+  background-color: white;
+  margin: 2rem;
+  min-height: 20rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 0 0 15px -5px gray;
+  border-radius: 15px;
+}
+.gallery .cell {
+  width: 15rem;
+  height: 15rem;
+  margin: 1rem;
+  border-radius: 15px;
+  aspect-ratio: 1/1;
+}
+
+/*# sourceMappingURL=main.css.map */
